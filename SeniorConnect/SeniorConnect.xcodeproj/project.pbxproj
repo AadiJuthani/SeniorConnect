@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD02DD852E6D25C60037E97F /* CallManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD02DD842E6D25B60037E97F /* CallManager.swift */; };
+		CD02DD872E6D30350037E97F /* VolunteerContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD02DD862E6D302E0037E97F /* VolunteerContactView.swift */; };
+		CD02DD8A2E6D34110037E97F /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD02DD892E6D340B0037E97F /* NotificationManager.swift */; };
+		CD1567272E66465A0072399F /* LargeAccessibilityButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1567262E6646520072399F /* LargeAccessibilityButton.swift */; };
+		CD1567292E6697B30072399F /* SeniorHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1567282E6697B30072399F /* SeniorHome.swift */; };
+		CD15672B2E66A0B80072399F /* EmergencyHelpButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD15672A2E66A0B80072399F /* EmergencyHelpButton.swift */; };
+		CD4AB60F2E6E3EC1002DC5E8 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4AB60E2E6E3EBE002DC5E8 /* LoginView.swift */; };
+		CD4AB6112E6E44E4002DC5E8 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4AB6102E6E44E2002DC5E8 /* UserManager.swift */; };
+		CD4AB6152E6E470A002DC5E8 /* AppUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4AB6142E6E4707002DC5E8 /* AppUser.swift */; };
+		CD4AB6172E6E5CA8002DC5E8 /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4AB6162E6E5CA3002DC5E8 /* EditProfileView.swift */; };
+		CD4AB6192E6E5DAB002DC5E8 /* VolunteerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4AB6182E6E5DA2002DC5E8 /* VolunteerManager.swift */; };
+		CD762EAD2E641F2C00414CDD /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD762EAC2E641F2C00414CDD /* RegistrationView.swift */; };
+		CD8902812E6B6D6400817C5F /* VoiceRecordingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8902802E6B6D6400817C5F /* VoiceRecordingService.swift */; };
+		CD8902832E6B6E4B00817C5F /* VoiceRecordingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8902822E6B6E4B00817C5F /* VoiceRecordingButton.swift */; };
+		CD8902852E6B78EF00817C5F /* VoiceRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8902842E6B78EF00817C5F /* VoiceRecorder.swift */; };
+		CD8902872E6B802000817C5F /* ImageCaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8902862E6B802000817C5F /* ImageCaptureView.swift */; };
+		CD8902892E6B807D00817C5F /* VoiceRecordingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8902882E6B807800817C5F /* VoiceRecordingView.swift */; };
+		CD99BC2A2E67F5AB007806F0 /* HelpRequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD99BC292E67F5AB007806F0 /* HelpRequestView.swift */; };
+		CD9F639D2E660F610070DF83 /* UserType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9F639C2E660F5B0070DF83 /* UserType.swift */; };
+		CD9F63A52E661B170070DF83 /* HelpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9F63A42E661B170070DF83 /* HelpRequest.swift */; };
+		CD9F63A72E661B600070DF83 /* Volunteer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9F63A62E661B600070DF83 /* Volunteer.swift */; };
+		CDABCDA72E69481C007246ED /* VolunteerDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDABCDA62E69481C007246ED /* VolunteerDashboardView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CD02DD842E6D25B60037E97F /* CallManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallManager.swift; sourceTree = "<group>"; };
+		CD02DD862E6D302E0037E97F /* VolunteerContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolunteerContactView.swift; sourceTree = "<group>"; };
+		CD02DD892E6D340B0037E97F /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		CD1567262E6646520072399F /* LargeAccessibilityButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeAccessibilityButton.swift; sourceTree = "<group>"; };
+		CD1567282E6697B30072399F /* SeniorHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeniorHome.swift; sourceTree = "<group>"; };
+		CD15672A2E66A0B80072399F /* EmergencyHelpButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyHelpButton.swift; sourceTree = "<group>"; };
+		CD4AB60E2E6E3EBE002DC5E8 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		CD4AB6102E6E44E2002DC5E8 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		CD4AB6142E6E4707002DC5E8 /* AppUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUser.swift; sourceTree = "<group>"; };
+		CD4AB6162E6E5CA3002DC5E8 /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
+		CD4AB6182E6E5DA2002DC5E8 /* VolunteerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolunteerManager.swift; sourceTree = "<group>"; };
+		CD762EAC2E641F2C00414CDD /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		CD8460042E641C9F00CFCC3A /* SeniorConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeniorConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD8902802E6B6D6400817C5F /* VoiceRecordingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceRecordingService.swift; sourceTree = "<group>"; };
+		CD8902822E6B6E4B00817C5F /* VoiceRecordingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceRecordingButton.swift; sourceTree = "<group>"; };
+		CD8902842E6B78EF00817C5F /* VoiceRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceRecorder.swift; sourceTree = "<group>"; };
+		CD8902862E6B802000817C5F /* ImageCaptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCaptureView.swift; sourceTree = "<group>"; };
+		CD8902882E6B807800817C5F /* VoiceRecordingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceRecordingView.swift; sourceTree = "<group>"; };
+		CD99BC292E67F5AB007806F0 /* HelpRequestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpRequestView.swift; sourceTree = "<group>"; };
+		CD9F639C2E660F5B0070DF83 /* UserType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserType.swift; sourceTree = "<group>"; };
+		CD9F63A42E661B170070DF83 /* HelpRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpRequest.swift; sourceTree = "<group>"; };
+		CD9F63A62E661B600070DF83 /* Volunteer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Volunteer.swift; sourceTree = "<group>"; };
+		CDABCDA62E69481C007246ED /* VolunteerDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolunteerDashboardView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		CD247B3E2E6B6B90005A6762 /* Exceptions for "SeniorConnect" folder in "SeniorConnect" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = CD8460032E641C9F00CFCC3A /* SeniorConnect */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		CD8460062E641C9F00CFCC3A /* SeniorConnect */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				CD247B3E2E6B6B90005A6762 /* Exceptions for "SeniorConnect" folder in "SeniorConnect" target */,
+			);
+			path = SeniorConnect;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD8460012E641C9F00CFCC3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD762EA62E641DEE00414CDD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CD4AB6142E6E4707002DC5E8 /* AppUser.swift */,
+				CD9F63A42E661B170070DF83 /* HelpRequest.swift */,
+				CD9F63A62E661B600070DF83 /* Volunteer.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CD762EA72E641DF500414CDD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CD1567282E6697B30072399F /* SeniorHome.swift */,
+				CD8902822E6B6E4B00817C5F /* VoiceRecordingButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CD762EA82E641DFB00414CDD /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		CD762EA92E641E0400414CDD /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CD8902802E6B6D6400817C5F /* VoiceRecordingService.swift */,
+				CD02DD842E6D25B60037E97F /* CallManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		CD845FFB2E641C9F00CFCC3A = {
+			isa = PBXGroup;
+			children = (
+				CD4AB6182E6E5DA2002DC5E8 /* VolunteerManager.swift */,
+				CD4AB6162E6E5CA3002DC5E8 /* EditProfileView.swift */,
+				CD4AB6102E6E44E2002DC5E8 /* UserManager.swift */,
+				CD4AB60E2E6E3EBE002DC5E8 /* LoginView.swift */,
+				CD02DD862E6D302E0037E97F /* VolunteerContactView.swift */,
+				CD8902882E6B807800817C5F /* VoiceRecordingView.swift */,
+				CD8902862E6B802000817C5F /* ImageCaptureView.swift */,
+				CD8902842E6B78EF00817C5F /* VoiceRecorder.swift */,
+				CDABCDA62E69481C007246ED /* VolunteerDashboardView.swift */,
+				CD99BC292E67F5AB007806F0 /* HelpRequestView.swift */,
+				CD15672A2E66A0B80072399F /* EmergencyHelpButton.swift */,
+				CD1567262E6646520072399F /* LargeAccessibilityButton.swift */,
+				CD9F639C2E660F5B0070DF83 /* UserType.swift */,
+				CD762EAC2E641F2C00414CDD /* RegistrationView.swift */,
+				CD02DD892E6D340B0037E97F /* NotificationManager.swift */,
+				CD762EA92E641E0400414CDD /* Services */,
+				CD762EA82E641DFB00414CDD /* ViewModels */,
+				CD762EA72E641DF500414CDD /* Views */,
+				CD762EA62E641DEE00414CDD /* Models */,
+				CD8460062E641C9F00CFCC3A /* SeniorConnect */,
+				CD8460052E641C9F00CFCC3A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD8460052E641C9F00CFCC3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD8460042E641C9F00CFCC3A /* SeniorConnect.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD8460032E641C9F00CFCC3A /* SeniorConnect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD84600F2E641CA000CFCC3A /* Build configuration list for PBXNativeTarget "SeniorConnect" */;
+			buildPhases = (
+				CD8460002E641C9F00CFCC3A /* Sources */,
+				CD8460012E641C9F00CFCC3A /* Frameworks */,
+				CD8460022E641C9F00CFCC3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				CD8460062E641C9F00CFCC3A /* SeniorConnect */,
+			);
+			name = SeniorConnect;
+			packageProductDependencies = (
+			);
+			productName = SeniorConnect;
+			productReference = CD8460042E641C9F00CFCC3A /* SeniorConnect.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD845FFC2E641C9F00CFCC3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					CD8460032E641C9F00CFCC3A = {
+						CreatedOnToolsVersion = 16.4;
+					};
+				};
+			};
+			buildConfigurationList = CD845FFF2E641C9F00CFCC3A /* Build configuration list for PBXProject "SeniorConnect" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD845FFB2E641C9F00CFCC3A;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = CD8460052E641C9F00CFCC3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD8460032E641C9F00CFCC3A /* SeniorConnect */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD8460022E641C9F00CFCC3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD8460002E641C9F00CFCC3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD15672B2E66A0B80072399F /* EmergencyHelpButton.swift in Sources */,
+				CD9F63A52E661B170070DF83 /* HelpRequest.swift in Sources */,
+				CD02DD852E6D25C60037E97F /* CallManager.swift in Sources */,
+				CD8902812E6B6D6400817C5F /* VoiceRecordingService.swift in Sources */,
+				CD1567292E6697B30072399F /* SeniorHome.swift in Sources */,
+				CD8902832E6B6E4B00817C5F /* VoiceRecordingButton.swift in Sources */,
+				CDABCDA72E69481C007246ED /* VolunteerDashboardView.swift in Sources */,
+				CD4AB60F2E6E3EC1002DC5E8 /* LoginView.swift in Sources */,
+				CD9F639D2E660F610070DF83 /* UserType.swift in Sources */,
+				CD99BC2A2E67F5AB007806F0 /* HelpRequestView.swift in Sources */,
+				CD02DD872E6D30350037E97F /* VolunteerContactView.swift in Sources */,
+				CD1567272E66465A0072399F /* LargeAccessibilityButton.swift in Sources */,
+				CD8902852E6B78EF00817C5F /* VoiceRecorder.swift in Sources */,
+				CD8902872E6B802000817C5F /* ImageCaptureView.swift in Sources */,
+				CD4AB6152E6E470A002DC5E8 /* AppUser.swift in Sources */,
+				CD9F63A72E661B600070DF83 /* Volunteer.swift in Sources */,
+				CD4AB6192E6E5DAB002DC5E8 /* VolunteerManager.swift in Sources */,
+				CD02DD8A2E6D34110037E97F /* NotificationManager.swift in Sources */,
+				CD8902892E6B807D00817C5F /* VoiceRecordingView.swift in Sources */,
+				CD4AB6172E6E5CA8002DC5E8 /* EditProfileView.swift in Sources */,
+				CD4AB6112E6E44E4002DC5E8 /* UserManager.swift in Sources */,
+				CD762EAD2E641F2C00414CDD /* RegistrationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CD84600D2E641CA000CFCC3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD84600E2E641CA000CFCC3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD8460102E641CA000CFCC3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SeniorConnect/SeniorConnect.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SeniorConnect/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app needs microphone access to record voice messages when you request help from volunteers.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "This app needs microphone access to record your voice messages for volunteers";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aadijuthani.SeniorConnect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD8460112E641CA000CFCC3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SeniorConnect/SeniorConnect.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SeniorConnect/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app needs microphone access to record voice messages when you request help from volunteers.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "This app needs microphone access to record your voice messages for volunteers";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aadijuthani.SeniorConnect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD845FFF2E641C9F00CFCC3A /* Build configuration list for PBXProject "SeniorConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD84600D2E641CA000CFCC3A /* Debug */,
+				CD84600E2E641CA000CFCC3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD84600F2E641CA000CFCC3A /* Build configuration list for PBXNativeTarget "SeniorConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD8460102E641CA000CFCC3A /* Debug */,
+				CD8460112E641CA000CFCC3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD845FFC2E641C9F00CFCC3A /* Project object */;
+}
