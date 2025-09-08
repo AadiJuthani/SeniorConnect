@@ -55,7 +55,7 @@ Open the app → Create a profile as a senior or volunteer → Tap **I Need Help
    ```bash
    git clone https://github.com/yourusername/SeniorConnect.git
    cd SeniorConnect
-  ```
+   ```
 2. Open SeniorConnect.xcodeproj (or .xcworkspace) in Xcode 15+.
 3. Select an iOS 16+ simulator or a physical device.
 4. Press Run ▶︎.
