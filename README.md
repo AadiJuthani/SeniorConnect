@@ -69,8 +69,7 @@ Open the app → Create a profile as a senior or volunteer → Tap **I Need Help
 
 ---
 
-## Credits & Inspiration
-- Built using [CodeDreams](https://codedreams.app/).  
+## Credits & Inspiration 
 - Apple Developer documentation and SwiftUI tutorials.  
 - SF Symbols for icons.
 
