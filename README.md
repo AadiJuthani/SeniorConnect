@@ -8,7 +8,7 @@ A SwiftUI app that helps seniors request assistance and connect with volunteers 
 <div style="display: flex; justify-content: space-between;">
   <img src="SeniorHome View.png" width="30%"/>
   <img src="VolunteerHome View.png" width="30%"/>
-  <img src="screenshots/volunteer.png" width="30%"/>
+  <img src="VolunteerHomeView.png" width="30%"/>
 </div>
 
 **Quick walkthrough:**  
