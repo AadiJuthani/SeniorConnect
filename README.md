@@ -61,8 +61,7 @@ Open the app → Create a profile as a senior or volunteer → Tap **I Need Help
 
 ---
 
-## Future Improvements
-- Replace mock data with a real backend for volunteers and requests.  
+## Future Improvements 
 - Add push notifications for real-time alerts.  
 - Improve request history and status tracking.  
 - Expand accessibility options (voice over prompts, larger UI scaling).  
