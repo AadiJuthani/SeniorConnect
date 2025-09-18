@@ -79,5 +79,5 @@ Open the app → Create a profile as a senior or volunteer → Tap **I Need Help
 All rights reserved.  
 
 **Author:** Aadi Juthani  
-📧 [your.email@example.com]  
-🔗 [LinkedIn Profile](https://www.linkedin.com/in/yourprofile)  
+📧 [aadi.juthani@gatech.edu]  
+🔗 [LinkedIn Profile](https://www.linkedin.com/in/aadi-juthani)  
